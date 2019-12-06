@@ -1,4 +1,4 @@
-function registrar() {
+function registrar(){
     console.log('Diste un click');
     var email = document.getElementById('correo').value;
     var contrasena = document.getElementById('pass').value;

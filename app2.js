@@ -8,7 +8,7 @@ function registrar(){
 
     
 
-    firebase.auth().createUserWithEmailAndPassword(email , contrasena).catch(function(error) {
+    firebase.auth().createUserWithEmailAndPassword(email,contrasena).catch(function(error) {
         // Handle Errors here.
         var errorCode = error.code;
         var errorMessage = error.message;
